@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.difm" name="DI.FM" version="0.6.2" provider-name="Community">
+<addon id="plugin.audio.difm" name="DI.FM" version="0.6.2" provider-name="Édouard Duliège">
   <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="xbmc.python" version="3.0.1"/>
     <import addon="script.module.requests" version="2.22.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py"><provides>audio</provides></extension>
-  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.service" library="service.py"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Unofficial DI.FM client for Kodi</summary>
     <summary lang="fr_FR">Client DI.FM non officiel pour Kodi</summary>
