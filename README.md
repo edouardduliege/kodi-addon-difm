@@ -72,17 +72,15 @@ interrupt/restart an already playing stream when the quality setting changes.
 
 ## Publication status
 
-The code has been cleaned toward Kodi repository submission, but two metadata
-fields must be chosen before submission and are deliberately not invented:
+This add-on is currently in pre-release testing.
 
-1. public maintainer/provider name
-2. public source repository URL
+- Kodi Omega compatibility: validated with `kodi-addon-checker`
+- GitHub repository: https://github.com/edouardduliege/kodi-addon-difm
+- Maintainer: Édouard Duliège
+- Official Kodi repository submission: not submitted yet
+- DI.FM branding/API approval: pending provider feedback
 
-DI.FM branding/API permission and availability of higher-resolution official
-channel artwork should also be clarified with DI.FM before public release.
-
-GPL-3.0-or-later.
-Unofficial; not affiliated with DI.FM or AudioAddict.
+The add-on is unofficial and is not affiliated with or endorsed by DI.FM or AudioAddict.
 
 
 ## 0.6.1 settings fix

@@ -15,6 +15,7 @@
     <disclaimer lang="fr_FR">Extension communautaire non officielle. Nécessite un compte AudioAddict/DI.FM valide. Sans affiliation avec DI.FM ou AudioAddict.</disclaimer>
     <platform>all</platform>
     <license>GPL-3.0-or-later</license>
+    <source>https://github.com/edouardduliege/kodi-addon-difm</source>    
     <website>https://www.di.fm/</website>
     <news>v0.6.2 (2026-08-13) - Fix Kodi v2 string settings schema with allowempty constraints.</news>
     <assets><icon>resources/icon.png</icon><fanart>resources/fanart.jpg</fanart></assets>
