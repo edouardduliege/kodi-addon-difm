@@ -111,6 +111,18 @@ def main():
                 continue
             if not player.isPlayingAudio():
                 continue
+            expected_stream = state.get("stream_url")
+
+            if not expected_stream:
+                continue
+
+            try:
+                playing_file = player.getPlayingFile()
+            except Exception:
+                continue
+
+            if playing_file != expected_stream:
+                continue
 
             if client is None:
                 client = AudioAddictClient()
