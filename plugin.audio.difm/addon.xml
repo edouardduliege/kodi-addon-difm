@@ -17,7 +17,7 @@
     <license>GPL-3.0-or-later</license>
     <source>https://github.com/edouardduliege/kodi-addon-difm</source>    
     <website>https://www.di.fm/</website>
-    <news>v0.6.2 (2026-08-13) - Fix Kodi v2 string settings schema with allowempty constraints.</news>
+    <news>v0.6.3 (2026-09-12) - Reduce metadata API traffic, improve favorites handling, error reporting and session reuse.</news>
     <assets><icon>resources/icon.png</icon><fanart>resources/fanart.jpg</fanart></assets>
   </extension>
 </addon>
