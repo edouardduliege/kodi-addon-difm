@@ -83,22 +83,14 @@ This is an unofficial community add-on. It is not affiliated with, endorsed by, 
 The add-on relies on AudioAddict endpoints that are not supported as a public API and may therefore change without notice.
 
 
+## 1.0.0 initial public release
 
-
-## 0.6.1 settings fix
-
-- Restores the DI.FM/AudioAddict account e-mail field in Kodi settings.
-- The configured e-mail remains visible so the active account can be identified.
-- The password remains masked.
-- Existing stored values are preserved by keeping the same setting IDs (`email`, `password`).
-
-
-## 0.6.2 settings schema fix
-
-Kodi's v2 add-on settings format requires empty editable string fields to use
-a self-closing `<default/>` and `<constraints><allowempty>true</allowempty></constraints>`.
-This restores the visible DI.FM/AudioAddict e-mail field and masked
-password field while preserving the existing setting IDs.
+- First public release submitted to the official Kodi repository.
+- Adds robust session invalidation when account credentials change.
+- Prevents stale metadata updates from overwriting a newly started stream.
+- Makes playback-state writes atomic and coordinates shared state updates.
+- Makes optional session/state cache writes non-blocking for playback.
+- Includes the packaged GPL-3.0 license file.
 
 ## 0.6.3 stability and maintenance update
 
@@ -112,3 +104,17 @@ password field while preserving the existing setting IDs.
 * Uses the add-on version dynamically in the HTTP User-Agent.
 * Removes unused interactive/V2 localisation strings and redundant player code.
 * Adds additional logging for previously silent file/state errors.
+
+## 0.6.2 settings schema fix
+
+Kodi's v2 add-on settings format requires empty editable string fields to use
+a self-closing `<default/>` and `<constraints><allowempty>true</allowempty></constraints>`.
+This restores the visible DI.FM/AudioAddict e-mail field and masked
+password field while preserving the existing setting IDs.
+
+## 0.6.1 settings fix
+
+- Restores the DI.FM/AudioAddict account e-mail field in Kodi settings.
+- The configured e-mail remains visible so the active account can be identified.
+- The password remains masked.
+- Existing stored values are preserved by keeping the same setting IDs (`email`, `password`).
