@@ -27,8 +27,8 @@
 - [x] decide on public maintainer contact: GitHub Issues only
 - [x] confirm branding/logo/API expectations with DI.FM
 - [x] replace official DI.FM logo/fanart with original community add-on artwork
-- [ ] run the official Kodi addon-checker against the final source tree
-- [ ] perform one final clean-install test from the release ZIP
+- [x] run the official Kodi addon-checker against the final source tree
+- [x] perform one final clean-install test from the release ZIP
 - [ ] submit to the appropriate official Kodi repository branch
 
 ## Deferred to V2
