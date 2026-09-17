@@ -1,4 +1,4 @@
-# DI.FM for Kodi — pre-V1
+# DI.FM for Kodi
 
 Unofficial community DI.FM / AudioAddict music add-on for Kodi.
 
@@ -67,20 +67,22 @@ interrupt/restart an already playing stream when the quality setting changes.
   is enough user value to justify the additional Kodi UI complexity
 - sleep timer
 - improved behaviour/recovery after a temporary network loss
-- higher-resolution official channel fanart if DI.FM can provide suitable
-  TV/desktop assets
 
 ## Publication status
 
-This add-on is currently in pre-release testing.
+This add-on is being submitted to the official Kodi repository.
 
 - Kodi Omega compatibility: validated with `kodi-addon-checker`
 - GitHub repository: https://github.com/edouardduliege/kodi-addon-difm
 - Maintainer: Édouard Duliège
-- Official Kodi repository submission: not submitted yet
-- DI.FM branding/API approval: pending provider feedback
+- Official Kodi repository submission: PR #4826 opened against the Omega branch
+- DI.FM has confirmed that the DI.FM name may be used in text for this unofficial add-on, but requested that the official DI.FM logo not be used
 
-The add-on is unofficial and is not affiliated with or endorsed by DI.FM or AudioAddict.
+This is an unofficial community add-on. It is not affiliated with, endorsed by, or supported by DI.FM or AudioAddict.
+
+The add-on relies on AudioAddict endpoints that are not supported as a public API and may therefore change without notice.
+
+
 
 
 ## 0.6.1 settings fix
