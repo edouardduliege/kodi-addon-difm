@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.difm" name="DI.FM" version="0.6.3" provider-name="Édouard Duliège">
+<addon id="plugin.audio.difm" name="DI.FM" version="1.0.0" provider-name="Édouard Duliège">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
     <import addon="script.module.requests" version="2.22.0"/>
@@ -17,7 +17,7 @@
     <license>GPL-3.0-or-later</license>
     <source>https://github.com/edouardduliege/kodi-addon-difm</source>    
     <website>https://www.di.fm/</website>
-    <news>v0.6.3 (2026-09-12) - Reduce metadata API traffic, improve favorites handling, error reporting and session reuse.</news>
+    <news>v1.0.0 (2026-09-17) - Initial public release. Linear DI.FM playback, favorites, Premium quality selection, dynamic Now Playing metadata, session reuse and English/French localisation.</news>
     <assets><icon>resources/icon.png</icon><fanart>resources/fanart.jpg</fanart></assets>
   </extension>
 </addon>
