@@ -82,6 +82,18 @@ This is an unofficial community add-on. It is not affiliated with, endorsed by, 
 
 The add-on relies on AudioAddict endpoints that are not supported as a public API and may therefore change without notice.
 
+### 1.0.1
+
+Maintenance and robustness update.
+
+- Improves stream-server fallback when HEAD requests are inconclusive.
+- Replaces the custom stale-lock mechanism with Linux `flock()`.
+- Writes the AudioAddict session cache atomically with restrictive permissions.
+- Requires configured credentials before opening the add-on root.
+- Starts playback without waiting for optional initial Now Playing metadata.
+- Restricts the supported platform to Linux.
+- Includes `LICENSE.txt` inside the add-on package.
+- Corrects PO header newline formatting.
 
 ## 1.0.0 initial public release
 
